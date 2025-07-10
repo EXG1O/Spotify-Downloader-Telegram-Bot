@@ -28,8 +28,8 @@ async def start_command_handler(message: Message, event_from_user: User) -> None
     await message.answer(
         (
             f'<b>Hi, {event_from_user.full_name}!</b>\n\n'
-            'I\'m a free <a href="https://github.com/EXG1O/Spotify-Music-Downloader-Telegram-Bot">open-source</a> Telegram bot '
-            'that helps you download music from Spotify — just send me a link.\n\n'
+            'I\'m a free <a href="https://github.com/EXG1O/Spotify-Downloader-Telegram-Bot">open-source</a> Telegram bot '
+            'that helps you download Spotify songs (from YouTube if a match is found) — just send me a link.\n\n'
             'If you want to support the developer, you can make a donation using one of '
             'the methods mentioned in this <a href="https://t.me/exg1o_channel/107">post</a>.\n\n'
             "You can also subscribe to the @exg1o_channel, the developer's Telegram channel, "
